@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> drinkList = List.of("Tea", "Coffee", "Orange juice", "Apple juice");
+        List<String> drinkList = List.of("Tea", "Coffee", "Orange juice", "Apple juice", "Green tea");
 
         drinkList.forEach(System.out::println);
     }
